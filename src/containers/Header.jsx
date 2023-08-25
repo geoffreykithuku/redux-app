@@ -1,13 +1,14 @@
-import React from 'react'
-
+import React from "react";
+import { Link } from "react-router-dom";
 const Header = () => {
   return (
-      <div className='ui fixed menu'>
-          <div className="ui container center">
-                <h2>CakeShop</h2>
-          </div>
+    <div className="ui fixed menu">
+      <div className="ui center container">
+        <h2>ReduxShop</h2>
+       
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
